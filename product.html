@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080909">
+  <title>Collections | FEXFEM</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo" href="index.html">FEXFEM<span>.</span></a>
+  <nav class="nav">
+    <a href="index.html">HOME</a>
+    <a class="active" href="products.html">COLLECTIONS</a>
+    <a href="about.html">ABOUT</a>
+  </nav>
+  <a href="#enquire" class="header-button">ENQUIRE ↗</a>
+  <button class="menu-toggle" aria-label="Open navigation">
+    <span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <section class="page-hero collection-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content reveal">
+      <p class="eyebrow">THE WORLD OF FEXFEM</p>
+      <h1>Our <em>Collections.</em></h1>
+      <p>Discover pieces that speak without saying a word.</p>
+    </div>
+  </section>
+
+  <section class="catalog section-padding">
+    <div class="section-heading reveal">
+      <div>
+        <p class="eyebrow gold-text">CURATED WITH INTENTION</p>
+        <h2>The art of <em>adornment.</em></h2>
+      </div>
+      <p class="catalog-note">A COLLECTION OF DISTINCTIVE PIECES</p>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-filter="all">ALL PIECES</button>
+      <button class="filter" data-filter="necklaces">NECKLACES</button>
+      <button class="filter" data-filter="rings">RINGS</button>
+      <button class="filter" data-filter="bracelets">BRACELETS</button>
+      <button class="filter" data-filter="earrings">EARRINGS</button>
+    </div>
+
+    <div class="catalog-grid">
+
+      <article class="catalog-card reveal" data-category="necklaces">
+        <div class="catalog-image">
+          <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=850&q=85" alt="Gold necklace" loading="lazy">
+          <span class="catalog-tag">SIGNATURE</span>
+        </div>
+        <div class="catalog-info">
+          <div><h3>The Signature Chain</h3><p>NECKLACES</p></div>
+          <span>01</span>
+        </div>
+      </article>
+
+      <article class="catalog-card reveal" data-category="rings">
+        <div class="catalog-image">
+          <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=850&q=85" alt="Luxury ring" loading="lazy">
+          <span class="catalog-tag">THE FINE EDIT</span>
+        </div>
+        <div class="catalog-info">
+          <div><h3>The Aurelia Ring</h3><p>RINGS</p></div>
+          <span>02</span>
+        </div>
+      </article>
+
+      <article class="catalog-card reveal" data-category="bracelets">
+        <div class="catalog-image">
+          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=850&q=85" alt="Gold bracelet" loading="lazy">
+          <span class="catalog-tag">EXCLUSIVE</span>
+        </div>
+        <div class="catalog-info">
+          <div><h3>The Heritage Bracelet</h3><p>BRACELETS</p></div>
+          <span>03</span>
+        </div>
+      </article>
+
+      <article class="catalog-card reveal" data-category="earrings">
+        <div class="catalog-image">
+          <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=850&q=85" alt="Elegant earrings" loading="lazy">
+        </div>
+        <div class="catalog-info">
+          <div><h3>The Sculpted Form</h3><p>EARRINGS</p></div>
+          <span>04</span>
+        </div>
+      </article>
+
+      <article class="catalog-card reveal" data-category="necklaces">
+        <div class="catalog-image">
+          <img src="https://images.unsplash.com/photo-1611085583191-a3b181a88401?auto=format&fit=crop&w=850&q=85" alt="Fine jewelry necklace" loading="lazy">
+        </div>
+        <div class="catalog-info">
+          <div><h3>The Minimal Pendant</h3><p>NECKLACES</p></div>
+          <span>05</span>
+        </div>
+      </article>
+
+      <article class="catalog-card reveal" data-category="bracelets">
+        <div class="catalog-image">
+          <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=850&q=85" alt="Premium gold jewelry" loading="lazy">
+        </div>
+        <div class="catalog-info">
+          <div><h3>The Modern Classic</h3><p>BRACELETS</p></div>
+          <span>06</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="enquiry section-padding" id="enquire">
+    <div class="enquiry-content reveal">
+      <p class="eyebrow gold-text">A PERSONAL EXPERIENCE</p>
+      <h2>Find your <em>signature.</em></h2>
+      <p>Interested in a piece or a bespoke enquiry? Get in touch with our team.</p>
+    </div>
+
+    <form class="enquiry-form" id="enquiryForm">
+      <label for="customerName">YOUR NAME</label>
+      <input id="customerName" name="name" type="text" placeholder="Full name" required>
+
+      <label for="customerEmail">EMAIL ADDRESS</label>
+      <input id="customerEmail" name="email" type="email" placeholder="Your email" required>
+
+      <label for="interest">WHAT INTERESTS YOU?</label>
+      <select id="interest" name="interest" required>
+        <option value="">Select a collection</option>
+        <option>Necklaces</option>
+        <option>Rings</option>
+        <option>Bracelets</option>
+        <option>Earrings</option>
+        <option>Bespoke enquiry</option>
+      </select>
+
+      <label for="message">YOUR MESSAGE</label>
+      <textarea id="message" name="message" rows="4" placeholder="Tell us what you are looking for..."></textarea>
+
+      <button type="submit" class="gold-button">SEND ENQUIRY ↗</button>
+      <p class="form-message" aria-live="polite"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <a href="index.html" class="logo">FEXFEM<span>.</span></a>
+  <p>TIMELESS. DISTINCTIVE. UNFORGETTABLE.</p>
+  <div class="footer-links">
+    <a href="index.html">HOME</a>
+    <a href="products.html">COLLECTIONS</a>
+    <a href="about.html">ABOUT</a>
+  </div>
+  <small>© <span class="year"></span> FEXFEM. ALL RIGHTS RESERVED.</small>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
